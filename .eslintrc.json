@@ -20,6 +20,11 @@
     "no-unexpected-multiline": 2,
     "no-use-before-define": ["error", { "functions": false}],
     "react/jsx-filename-extension": [1, {"extensions": [".js"]}],
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "to", "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
+    }],
     "allowAllPropertiesOnSameLine": false,
     "prettier/prettier": ["error", {
       "singleQuote": true,
